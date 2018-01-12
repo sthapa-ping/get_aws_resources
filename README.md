@@ -1,6 +1,6 @@
 # get_aws_resources.pl
 
-Script to dump aws resources details to .xlsx file. Nothing fancy about this script its just a wrapper on top of aws cli.
+Script to dump the aws resources details to .xlsx file. Nothing fancy about this script it's just a wrapper on top of aws cli.
 
 
 ### Prerequisites
@@ -12,13 +12,12 @@ cpan Tie::IxHash
 
 ### Limitation 
 
-Due to limitation of AWS CLI this script does not dump all AWS resources. Example, 
+Due to the limitation of AWS CLI this script does not dump all AWS resources. Example, 
 
 ```
 aws cloudfront:  AWS CLI support for this service is only available in a preview stage.
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
 
 ## Running
 
